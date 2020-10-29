@@ -30,10 +30,12 @@ Invite Aiko to your discord channel using [this link](https://discord.com/api/oa
 For Running your own instances of aiko please read <a href="#cloud-instance">Cloud instance</a> or <a href="#local-instance">Local instance</a>
 ## Key features
 
+- Joint message handler
+
 ## Local instance
 
-To clone and run these bots on a local machine, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download) (which comes with [npm](http://npmjs.com))<br>
-Installed on your computer. From your command line run the following commands:
+To clone and run this bot on a local machine, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download) (which comes with [npm](http://npmjs.com))
+Installed on your computer.<br> From your command line run the following commands:
 
 ```bash
 # Clone the repository from github
@@ -60,6 +62,8 @@ Then run the following command to start the bot
 ``` 
 
 ## Cloud instance
+To clone and run a cloud instance of this bot, you'll need a [Heroku Account](https://signup.heroku.com/)... (TO BE CONTINUED)
+
 
 
 
