@@ -5,7 +5,7 @@
 if (Number(process.version.match(/^v(\d+\.\d+)/)[1]) < 14) throw new Error("Requires node ^v14.0.0 to run properly")
 
 // Load .env file
-process.argv[2] == "prod" ? console.log("Booting into production mode, not loading .env") : require('dotenv').config({ path: "./src/config/dev/.env" })
+process.argv[2] == "prod" ? console.log("Not loading environmental variables") : require('dotenv').config({ path: "./src/config/dev/.env" })
 
 // Import clients
 const discordClient = new (require("./discord.js"))();
