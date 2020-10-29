@@ -7,6 +7,9 @@
   "author": "Supesu <kian.pynk@gmail.com>",
   "license": "GNU General Public License V3",
   "private": false,
+  "scripts": {
+    "start": "node . dev"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "discord.js": "^12.4.1",

@@ -13,6 +13,6 @@ module.exports = class {
         }, 60000);
 
         this.client.user.setActivity(`${process.env.PREFIX}help`);
-        this.client.logger.log(`${this.client.user.tag}, ready to serve ${this.client.users.cache.size} users in ${this.client.guilds.cache.size} servers.`, "ready");
+        this.client.logger.log(`${this.client.user.tag}, ready to serve ${this.client.users.cache.size} users in ${this.client.guilds.cache.size} servers.`, "ready", true);
     }
 };

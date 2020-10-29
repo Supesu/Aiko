@@ -37,17 +37,18 @@ class DiscordClient {
   }
 
   async loadEvents() {
-    const evtFiles = await readdir("./src/events/");
+    const evtFiles = await readdir("./src/events/discord/");
     this.client.logger.log(
       `Loading a total of ${evtFiles.length} events.`,
-      "log"
+      "log",
+      true
     );
     evtFiles.forEach((file) => {
       const eventName = file.split(".")[0];
-      this.client.logger.log(`Loading Event: ${eventName}`);
-      const event = new (require(`./events/${file}`))(this.client);
+      this.client.logger.log(`Loading Event: ${eventName}`, "log", true);
+      const event = new (require(`./events/discord/${file}`))(this.client);
       this.client.on(eventName, (...args) => event.run(...args));
-      delete require.cache[require.resolve(`./events/${file}`)];
+      delete require.cache[require.resolve(`./events/discord/${file}`)];
     });
   }
 
