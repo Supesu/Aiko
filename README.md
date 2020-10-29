@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <a herf=""><img src="https://cdn.discordapp.com/avatars/769071220632977438/3821259510b8ae8c95253db18446ffe4.png?size=256" alt="Aiko Discord Bot" width="200"></a>
+    <a herf="https://discord.com/api/oauth2/authorize?client_id=769071220632977438&permissions=8&redirect_uri=https%3A%2F%2Fgithub.com%2FSupesu%2FAiko&scope=bot" alt="link for invite"><img src="https://cdn.discordapp.com/avatars/769071220632977438/3821259510b8ae8c95253db18446ffe4.png?size=256" alt="Aiko Discord Bot" width="200"></a>
     <br>
     <br>
     Aiko
@@ -26,6 +26,8 @@
 
 ## How to use
 
+Invite Aiko to your discord channel using [this link](https://discord.com/api/oauth2/authorize?client_id=769071220632977438&permissions=8&redirect_uri=https%3A%2F%2Fgithub.com%2FSupesu%2FAiko&scope=bot) then message !help into any channel that she has access to!<br>
+For Running your own instances of aiko please read <a href="#cloud-instance">Cloud instance</a> or <a href="#local-instance">Local instance</a>
 ## Key features
 
 ## Local instance
@@ -59,6 +61,14 @@ Then run the following command to start the bot
 
 ## Cloud instance
 
+
+
 ## License
 
+**GNU General Public License v3.0**<br>
+Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
+
+
 ## Credits
+> Discord [Supesu#2930](https://discord.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> Github [@Supesu](https://github.com/Supesu)
