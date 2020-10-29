@@ -1,0 +1,10 @@
+{
+  "name": "aiko",
+  "version": "0.0.1",
+  "description": "A open source twitch & discord bot desgined for moderation & gaming",
+  "main": "src/index.js",
+  "repository": "https://github.com/Supesu/Aiko.git",
+  "author": "Supesu <kian.pynk@gmail.com>",
+  "license": "GNU General Public License V3",
+  "private": false
+}
