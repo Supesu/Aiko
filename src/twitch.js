@@ -1,8 +1,9 @@
 class TwitchClient {
-    async start()
-    {
-        console.log('test')
-    }
+  constructor(config) {
+    this.config = config;
+  }
+
+  async start() {}
 }
 
-module.exports = TwitchClient
+module.exports = TwitchClient;
