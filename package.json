@@ -8,6 +8,7 @@
   "license": "GNU General Public License V3",
   "private": false,
   "dependencies": {
-    "discord.js": "^12.4.1"
+    "discord.js": "^12.4.1",
+    "tmi.js": "^1.5.0"
   }
 }
