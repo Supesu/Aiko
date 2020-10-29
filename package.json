@@ -1,6 +1,6 @@
 {
   "name": "aiko",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A open source twitch & discord bot desgined for moderation & gaming",
   "main": "src/index.js",
   "repository": "https://github.com/Supesu/Aiko.git",
@@ -9,6 +9,7 @@
   "private": false,
   "dependencies": {
     "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
     "tmi.js": "^1.5.0"
   }
 }

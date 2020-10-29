@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <a herf="https://discord.com/api/oauth2/authorize?client_id=769071220632977438&permissions=8&redirect_uri=https%3A%2F%2Fgithub.com%2FSupesu%2FAiko&scope=bot" alt="link for invite"><img src="https://cdn.discordapp.com/avatars/769071220632977438/3821259510b8ae8c95253db18446ffe4.png?size=256" alt="Aiko Discord Bot" width="200"></a>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=769071220632977438&permissions=8&redirect_uri=https%3A%2F%2Fgithub.com%2FSupesu%2FAiko&scope=bot" alt="link for invite"><img src="https://cdn.discordapp.com/avatars/769071220632977438/3821259510b8ae8c95253db18446ffe4.png?size=256" alt="Aiko Discord Bot" width="200"></a>
     <br>
     <br>
     Aiko
@@ -35,7 +35,7 @@ For Running your own instances of aiko please read <a href="#cloud-instance">Clo
 ## Local instance
 
 To clone and run this bot on a local machine, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download) (which comes with [npm](http://npmjs.com))
-Installed on your computer.<br> From your command line run the following commands:
+Installed on your computer.From your command line run the following commands:
 
 ```bash
 # Clone the repository from github
