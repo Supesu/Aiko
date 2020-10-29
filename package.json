@@ -1,10 +1,13 @@
 {
   "name": "aiko",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A open source twitch & discord bot desgined for moderation & gaming",
   "main": "src/index.js",
   "repository": "https://github.com/Supesu/Aiko.git",
   "author": "Supesu <kian.pynk@gmail.com>",
   "license": "GNU General Public License V3",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
 }

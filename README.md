@@ -11,4 +11,5 @@
 
 <p align="center"> 
         <img src="https://img.shields.io/github/package-json/v/Supesu/Aiko/master?label=Version&style=flat-square" alt="version">
+        <img src="https://img.shields.io/badge/Discord%20Version-%5E12.4.1-green">
 </p>
