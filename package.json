@@ -5,10 +5,11 @@
   "main": "src/index.js",
   "repository": "https://github.com/Supesu/Aiko.git",
   "author": "Supesu <kian.pynk@gmail.com>",
-  "license": "GNU General Public License V3",
+  "license": "GPL (General Public License V3)",
   "private": false,
   "scripts": {
-    "start": "node . dev"
+    "dev": "node . dev",
+    "start": "node . prod"
   },
   "dependencies": {
     "chalk": "^4.1.0",
